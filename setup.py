@@ -60,5 +60,6 @@ setup(
         'console_scripts': [
             'enplot = enplot.run:main'
         ]
-    }
+    },
+    install_requires=['numpy', 'matplotlib']
 )
